@@ -1,0 +1,81 @@
+.resident__section {
+    padding: 20px;
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    
+    .resident__container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
+        max-width: 1200px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .resident__card{
+        background-color: white;
+        border-radius: 25px;
+
+        .resident__card__header{
+            width: 100%;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            padding: 15px;
+
+            img{
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                border-radius: 10px 10px 55px 10px;
+            }
+            .resident__card__status{
+                position: absolute;
+                bottom: 30px;
+                right: 6px;
+                background: #fff8e0;
+                padding: 3px 6px;
+                border-radius: 12px;
+                box-shadow: 0 0 2px rgba(0,0,0,0.2);
+            }
+        }
+        .resident__card__body{
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            h3{
+                font-size: 1.2rem;
+                font-weight: 600;
+                font-family: "Permanent Marker", serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+
+            ul{
+                width: 100%;
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+
+                .bold{
+                    font-weight: 700;
+                }
+            }
+            .resident__card__copy{
+                font-size: 0.9rem;
+            }
+            .resident__card__footer{
+                margin-top: 25px;
+                padding: 5px 15px;
+                border-radius: 7px;
+            }
+        }
+    
+    }
+}
