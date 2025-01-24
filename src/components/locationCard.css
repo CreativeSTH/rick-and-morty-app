@@ -12,6 +12,8 @@
         font-family: "Permanent Marker", serif;
         font-weight: 400;
         font-style: normal;
+        text-align: center;
+        padding-inline: 0px 25px;
     }
     .location__card__list{
         width: 100%;

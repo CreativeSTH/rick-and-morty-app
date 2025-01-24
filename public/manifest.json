@@ -1,0 +1,17 @@
+{
+    "name": "Sebastian Torres (crestiveSTH) Proyect",
+    "short_name": "Lucky Cookie",
+    "description": "Lucky Cookie is a simple game where you can test your luck. You have to choose a cookie and see if you are lucky enough to get a fortune. If you don't like the fortune, you can try again. Have fun!",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#000",
+    "theme_color": "#000",
+    "icons": [
+      {
+        "src": "./favicon.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      }
+    ]
+  }
+  

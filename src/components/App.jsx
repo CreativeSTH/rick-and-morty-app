@@ -5,6 +5,7 @@ import 'react-loading-skeleton/dist/skeleton.css'
 import LocationCard from "./LocationCard";
 import ResidentsList from "./ResidentsList";
 import SearchForm from "./SearchForm";
+import Hero from "./Hero";
 
 
 
@@ -21,6 +22,7 @@ function App() {48
   //console.log(data)
   return (
     <>
+    <Hero/>
     {pending ? (<Skeleton count={1} height={30} />) : (<LocationCard location={data} />)}
     <SearchForm setSearch={setSearch}/>
     {console.log(search)}
